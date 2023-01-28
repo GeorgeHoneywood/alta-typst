@@ -2,7 +2,7 @@
 
 A simple Typst CV template, inspired by [AltaCV by LianTze Lim](https://github.com/liantze/AltaCV). [LaurenzV's simplecv](https://github.com/LaurenzV/simplecv) was used as a Typst code reference. See [`example.pdf`](example.pdf) for the rendered PDF output.
 
-![Screenshot](screenshot.png)
+<img src="screenshot.png" width="500"></img>
 
 ## Usage
 
