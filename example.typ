@@ -1,4 +1,4 @@
-#import alta, term, skill from "alta-typst.typ"
+#import "alta-typst.typ": alta, term, skill
 
 #alta(
   name: "John Smith",
