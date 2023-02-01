@@ -16,9 +16,9 @@
       icon(service.name)
 
       if "display" in service.keys() {
-        link({service.link})[{service.display}]
+        link(service.link)[#{service.display}]
       } else {
-        link({service.link})
+        link(service.link)
       }
     }).join(h(10pt))
   [
