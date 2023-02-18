@@ -1,9 +1,10 @@
 #let primary_colour = rgb("#3E0C87") // vivid purple
 
 #let icon(name, shift: 1.5pt) = {
-  move(
-    dy: shift,
-    image(name + ".svg", height: 10pt)
+  box(
+    baseline: shift,
+    height: 10pt,
+    image(name + ".svg")
   )
   h(3pt)
 }
@@ -46,10 +47,10 @@
       colour = primary_colour
     }
 
-    circle(
+    box(circle(
       radius: 4pt,
       fill: colour
-    )
+    ))
 
     if (max_rating == i){
       done = true
@@ -82,7 +83,8 @@
   ): it => text(
       fill: primary_colour,
     [
-      #{it.title}\
+      #{it.title}
+      #v(-7pt)
       #line(length: 100%, stroke: 1pt + primary_colour)
     ]
   )
