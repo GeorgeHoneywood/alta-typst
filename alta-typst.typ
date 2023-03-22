@@ -73,7 +73,7 @@
   left,
   right,
 ) = {
-  set text(10pt, "IBM Plex Sans")
+  set text(9.9pt, font: "IBM Plex Sans")
   set page(
     margin: (x: 54pt, y: 52pt),
   )
@@ -83,7 +83,7 @@
   ): it => text(
       fill: primary_colour,
     [
-      #{it.title}
+      #{it.body}
       #v(-7pt)
       #line(length: 100%, stroke: 1pt + primary_colour)
     ]
@@ -93,7 +93,7 @@
     level: 4
   ): it => text(
     fill: primary_colour,
-    it.title
+    it.body
   )
 
   [= #name]
