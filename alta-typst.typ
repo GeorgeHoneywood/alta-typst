@@ -73,7 +73,7 @@
   left,
   right,
 ) = {
-  set text(9.9pt, font: "IBM Plex Sans")
+  set text(9.8pt, font: "IBM Plex Sans")
   set page(
     margin: (x: 54pt, y: 52pt),
   )
