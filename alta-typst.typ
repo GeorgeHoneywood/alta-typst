@@ -90,6 +90,10 @@
   )
 
   show heading.where(
+    level: 3
+  ): it => text(it.body)
+  
+  show heading.where(
     level: 4
   ): it => text(
     fill: primary_colour,

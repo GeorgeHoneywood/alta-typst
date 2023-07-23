@@ -12,8 +12,7 @@
   [
     == Experience
 
-    === Junior Software Engineer
-
+    === Junior Software Engineer \
     _Company Two_\
     #term[Jul 2021 --- Jul 2022][London, UK]
 
@@ -21,8 +20,7 @@
     - #lorem(10)
     - #lorem(24)
 
-    === Junior Systems Administrator
-
+    === Junior Systems Administrator \
     _Company 1_\
     #term[Oct 2019 --- Jul 2021][Bournemouth, UK]
 
@@ -33,15 +31,13 @@
 
     == Education
 
-    === Higher
-
+    === Higher \
     _University Name_\
     #term[Sep 2019 --- Jul 2023][Location, UK]
 
     B.Sc. Computer Science with Year in Industry. #lorem(10)
 
-    === A-Levels
-
+    === A-Levels \
     _Place Grammar School_\
     #term[Sep 2017 --- Aug 2019][Place, UK]
 
