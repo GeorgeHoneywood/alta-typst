@@ -4,7 +4,7 @@
   box(
     baseline: shift,
     height: 10pt,
-    image(name + ".svg")
+    image("icons/" + name + ".svg")
   )
   h(3pt)
 }

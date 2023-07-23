@@ -8,7 +8,7 @@ A simple Typst CV template, inspired by [AltaCV by LianTze Lim](https://github.c
 
 ### On [typst.app](https://typst.app/)
 
-Upload the `.typ` and `.svg` files to your Typst project, then see `example.typ`.
+Upload both the `.typ` files and the `icons/` folder to your Typst project, then see `example.typ`. Uploading folders to the web app is unsupported, but you can select multiple files at once.
 
 ### With [Typst CLI](https://github.com/typst/typst)
 
@@ -18,7 +18,7 @@ Note that the template is intended for use with the IBM Plex Sans font, which is
 
 ### Icons
 
-Add extra icons by uploading more `.svg` files — the existing ones are free icons from [Font Awsome](https://fontawesome.com/search?o=r&m=free). You can then reference these as `name` values in the links array.
+Add extra icons by uploading more `.svg` files to the `icons/` folder. The existing icons are from [Font Awsome](https://fontawesome.com/search?o=r&m=free). You can then reference their file names as the `name` values in the `links` array passed into the `alta` function.
 
 ## Licence
 
