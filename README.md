@@ -18,7 +18,7 @@ Note that the template is intended for use with the IBM Plex Sans font, which is
 
 ### Icons
 
-Add extra icons by uploading more `.svg` files to the `icons/` folder. The existing icons are from [Font Awsome](https://fontawesome.com/search?o=r&m=free). You can then reference their file names as the `name` values in the `links` array passed into the `alta` function.
+Add extra icons by uploading more `.svg` files to the `icons/` folder. The existing icons are from [Font Awesome](https://fontawesome.com/search?o=r&m=free). You can then reference their file names as the `name` values in the `links` array passed into the `alta` function.
 
 ## Licence
 
