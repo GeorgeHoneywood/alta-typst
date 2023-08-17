@@ -1,4 +1,5 @@
 #let primary_colour = rgb("#3E0C87") // vivid purple
+#let link_colour = rgb("#12348e") // blue
 
 #let icon(name, shift: 1.5pt) = {
   box(
@@ -70,8 +71,7 @@
   name: "",
   links: (),
   tagline: [],
-  left,
-  right,
+  content,
 ) = {
   set text(9.8pt, font: "IBM Plex Sans")
   set page(
@@ -104,12 +104,17 @@
 
   findMe(links)
 
+  // show all content links with the link colour + italics
+  show link: content => emph(text(
+    fill: link_colour,
+    content
+  ))
+
   tagline
 
-  grid(
-    columns: (0.49fr, 0.49fr),
+  columns(
+    2,
     gutter: 15pt,
-    left,
-    right,
+    content,
   )
 }
