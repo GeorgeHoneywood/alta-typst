@@ -4,6 +4,8 @@ A simple Typst CV template, inspired by [AltaCV by LianTze Lim](https://github.c
 
 <img src="screenshot.png" width="500"></img>
 
+The layout is two columns, with one wrapping into the next when space runs out. If you'd like to force an early column or page break, you can use the `#colbreak()` command.
+
 ## Usage
 
 ### On [typst.app](https://typst.app/)
