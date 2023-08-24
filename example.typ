@@ -50,13 +50,14 @@
     - #lorem(6)
     - #lorem(4)
     - #lorem(12)
-  ],
-  [
+    
+    #colbreak()
     == Projects
 
     ==== Some project
 
-    #lorem(30)
+    #lorem(30) \
+    #link("https://example.com")[Example page]
 
     ==== Project with a longer name
 
