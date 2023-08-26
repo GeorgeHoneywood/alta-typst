@@ -77,6 +77,10 @@
   tagline: [],
   content,
 ) = {
+  set document(
+    title: name + "'s CV",
+    author: name,
+  )
   set text(9.8pt, font: "IBM Plex Sans")
   set page(
     margin: (x: 54pt, y: 52pt),
