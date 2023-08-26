@@ -1,4 +1,4 @@
-#import "alta-typst.typ": alta, term, skill
+#import "alta-typst.typ": alta, term, skill, styled-link
 
 #alta(
   name: "John Smith",
@@ -54,10 +54,11 @@
     #colbreak()
     == Projects
 
-    ==== Some project
+    ==== #link("https://example.com")[Some project]
 
-    #lorem(30) \
-    #link("https://example.com")[Example page]
+    #lorem(30)
+    
+    #styled-link("https://example.com")[Example page]
 
     ==== Project with a longer name
 

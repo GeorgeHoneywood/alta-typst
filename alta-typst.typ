@@ -66,6 +66,10 @@
   [\ ]
 }
 
+#let styled-link(dest, content) = emph(text(
+    fill: link_colour,
+    link(dest, content)
+  ))
 
 #let alta(
   name: "",
@@ -103,12 +107,6 @@
   [= #name]
 
   findMe(links)
-
-  // show all content links with the link colour + italics
-  show link: content => emph(text(
-    fill: link_colour,
-    content
-  ))
 
   tagline
 
