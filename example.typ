@@ -1,4 +1,4 @@
-#import "alta-typst.typ": alta, term, skill, styled-link
+#import "alta-typst.typ": alta, term, skill, styled-link, name, target
 
 #alta(
   name: "John Smith",
@@ -9,11 +9,11 @@
     (name: "linkedin", link: "https://linkedin.com/in/example", display: "John Smith"),
   ),
   tagline: [Software Engineer. #lorem(10)],
-  [
+  context [
     == Experience
 
     === Junior Software Engineer \
-    _Company Two_\
+    #name[_Company Two_]
     #term[Jul 2021 --- Jul 2022][London, UK]
 
     - #lorem(15)
@@ -21,7 +21,7 @@
     - #lorem(24)
 
     === Junior Systems Administrator \
-    _Company 1_\
+    #name[Company 1]
     #term[Oct 2019 --- Jul 2021][Bournemouth, UK]
 
     - #lorem(20)
@@ -32,13 +32,13 @@
     == Education
 
     === Higher \
-    _University Name_\
+    #name[University Name]
     #term[Sep 2019 --- Jul 2023][Location, UK]
 
     B.Sc. Computer Science with Year in Industry. #lorem(10)
 
     === A-Levels \
-    _Place Grammar School_\
+    #name[Place Grammar School]
     #term[Sep 2017 --- Aug 2019][Place, UK]
 
     #lorem(10)
@@ -51,7 +51,10 @@
     - #lorem(4)
     - #lorem(12)
     
-    #colbreak()
+    #if target() == "paged" {
+      colbreak()
+    }
+
     == Projects
 
     ==== #link("https://example.com")[Some project]
