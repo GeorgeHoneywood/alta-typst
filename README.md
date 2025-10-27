@@ -16,7 +16,7 @@ Note that the template is intended for use with the IBM Plex Sans font, which is
 
 #### HTML export
 
-As of Typst 0.14.0, if you compile with `typst watch --format html --features html example.typ`, you'll get some mostly unstyled HTML output (see `example.html`). This can be then embedded into your website, and will hopefully pick up styling from there. Typst makes a standalone document, i.e. valid HTML doc including `<head>` and <body> -- if you plan to embed the output you'll want to strip these out.
+As of Typst 0.14.0, if you compile with `typst watch --format html --features html example.typ`, you'll get some mostly unstyled HTML output (see `example.html`). This can be then embedded into your website, and will hopefully pick up styling from there. Typst makes a standalone document, i.e. valid HTML doc including `<head>` and `<body>` -- if you plan to embed the output you'll want to strip these out.
 
 ### On [typst.app](https://typst.app/)
 
